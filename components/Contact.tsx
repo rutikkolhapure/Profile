@@ -13,14 +13,14 @@ const contactInfo = [
   {
     icon: FiLinkedin,
     label: 'LinkedIn',
-    value: 'linkedin.com/in/rutik-kolhapure',
-    href: 'https://linkedin.com/in/rutik-kolhapure',
+    value: 'linkedin.com/in/rutikkolhapure',
+    href: 'https://linkedin.com/in/rutikkolhapure',
   },
   {
     icon: FiGithub,
     label: 'GitHub',
-    value: 'github.com/rutik-kolhapure',
-    href: 'https://github.com/rutik-kolhapure',
+    value: 'github.com/rutikkolhapure',
+    href: 'https://github.com/rutikkolhapure',
   },
   {
     icon: FiMapPin,
