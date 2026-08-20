@@ -1,7 +1,7 @@
 'use client'
 
 import { TypeAnimation } from 'react-type-animation'
-import { FiDownload, FiArrowRight, FiUser, FiZap, FiTrendingUp } from 'react-icons/fi'
+import { FiDownload, FiArrowRight, FiZap, FiTrendingUp } from 'react-icons/fi'
 
 export default function Hero() {
   return (
@@ -40,7 +40,7 @@ export default function Hero() {
             </div>
 
             <p className="text-slate-600 text-lg leading-relaxed max-w-xl">
-              Product-minded Business Consultant with 4+ years of experience spanning product management, 
+              Product-minded Business Consultant with 3+ years of experience spanning product management,
               business analysis, and data-driven strategy across SaaS, BFSI, and enterprise technology.
             </p>
 
@@ -53,7 +53,8 @@ export default function Hero() {
                 <FiArrowRight className="ml-2" />
               </a>
               <a
-                href="#"
+                href="/RutikKolhapureResume.pdf"
+                download
                 className="inline-flex items-center px-6 py-3 border border-primary/50 text-primary hover:bg-primary/10 rounded-lg font-medium transition-all duration-300"
               >
                 Download CV
@@ -75,9 +76,8 @@ export default function Hero() {
             <div className="relative w-[340px] h-[340px]">
               <div className="absolute inset-0 rounded-full border-2 border-dashed border-primary/30 animate-spin-slow" />
 
-              <div className="absolute inset-4 rounded-full overflow-hidden bg-gradient-to-br from-slate-100 to-blue-100 border border-slate-200 shadow-xl shadow-primary/10 flex items-center justify-center">
-                {/* Replace this placeholder with your photo: add the file to /public (e.g. profile.jpg) and swap in an <img src="/profile.jpg" alt="Rutik Kolhapure" className="w-full h-full object-cover" /> */}
-                <FiUser className="text-slate-300" size={140} />
+              <div className="absolute inset-4 rounded-full overflow-hidden bg-gradient-to-br from-slate-100 to-blue-100 border border-slate-200 shadow-xl shadow-primary/10">
+                <img src="/profile.png" alt="Rutik Kolhapure" className="w-full h-full object-cover" />
               </div>
 
               <div className="absolute top-6 -left-8 bg-white rounded-xl shadow-lg shadow-slate-300/50 border border-slate-100 px-4 py-3 flex items-center gap-3">
@@ -85,7 +85,7 @@ export default function Hero() {
                   <FiZap className="text-primary" size={18} />
                 </div>
                 <div>
-                  <div className="font-bold text-slate-900 text-sm leading-tight">4+ Years</div>
+                  <div className="font-bold text-slate-900 text-sm leading-tight">3+ Years</div>
                   <div className="text-slate-500 text-xs leading-tight">Product & BA Experience</div>
                 </div>
               </div>

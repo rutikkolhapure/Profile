@@ -45,7 +45,8 @@ export default function Navbar() {
 
           <div className="hidden md:flex items-center justify-end gap-3">
             <a
-              href="#"
+              href="/RutikKolhapureResume.pdf"
+              download
               className="inline-flex items-center gap-2 px-4 py-2 border border-primary/50 text-primary hover:bg-primary/10 rounded-lg text-sm font-medium transition-all duration-300"
             >
               <FiDownload size={16} />
@@ -85,7 +86,8 @@ export default function Navbar() {
             ))}
             <div className="flex gap-3 pt-2">
               <a
-                href="#"
+                href="/RutikKolhapureResume.pdf"
+                download
                 onClick={() => setIsOpen(false)}
                 className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2 border border-primary/50 text-primary hover:bg-primary/10 rounded-lg text-sm font-medium transition-all duration-300"
               >
