@@ -90,10 +90,10 @@ export default function About() {
             My Philosophy
           </div>
           <p className="text-slate-700 italic leading-relaxed">
-            Real authority isn&apos;t given — it&apos;s earned through understanding. I go deep
+            Real authority isn&apos;t given it&apos;s earned through understanding. I go deep
             into a system&apos;s workflows, its data, its edges until I know what needs to
             change, then I build it. Because an opinion without a working solution behind it
-            isn&apos;t insight — it&apos;s speculation.
+            isn&apos;t insight it&apos;s speculation.
           </p>
         </motion.div>
       </div>
