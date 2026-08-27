@@ -30,8 +30,8 @@ export default function About() {
             I am a Product-minded Business Consultant with{' '}
             <span className="text-primary font-semibold">3+ years</span> of experience turning
             ambiguous problems into shipped solutions across SaaS, BFSI, and enterprise
-            technology. I sit at the intersection of product thinking, business analysis, and
-            delivery — owning roadmaps, translating stakeholder needs into prioritized
+            technology. I sit at the intersection of product thinking, business analysis and
+            delivery, owning roadmaps, translating stakeholder needs into prioritized
             requirements, and leading cross-functional teams from discovery through
             go-to-market.
           </p>
@@ -62,11 +62,11 @@ export default function About() {
           </p>
 
           <p>
-            Across key engagements —{' '}
+            Across key engagements : {' '}
             <span className="text-slate-900 font-medium">
               BFL, Geekay, Beautie&amp;Nutrie, KGen, HOB and CCD
             </span>{' '}
-            — I&apos;ve led end-to-end product lifecycles: from stakeholder discovery and
+             - I&apos;ve led end-to-end product lifecycles: from stakeholder discovery and
             functional scoping through FSDs, user stories, wireframes, sprint execution, UAT,
             and post-launch adoption. I&apos;m most effective when I can bridge the gap between
             business goals and technical execution, ensuring what gets built is what matters.
