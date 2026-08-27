@@ -5,8 +5,7 @@ import { FiDownload, FiArrowRight, FiZap, FiTrendingUp } from 'react-icons/fi'
 
 export default function Hero() {
   return (
-   /*<section className="relative min-h-[calc(100vh-80px)] flex items-center overflow-hidden"> */
-    <section className="relative min-h-[calc(100vh-80px)] pt-20 flex items-center overflow-hidden">
+    <section className="relative min-h-[calc(100vh-80px)] pt-24 flex items-center overflow-hidden">
 
       {/* Background decorative circles */}
       <div className="absolute top-20 left-10 w-72 h-72 bg-primary/20 rounded-full blur-3xl" />
