@@ -19,7 +19,7 @@ export default function Hero() {
 
             <div className="space-y-4">
 
-              <p className="text-primary font-medium tracking-wide uppercase">
+              <p className="text-4x1 font-bold tracking-wide uppercase">
                 Hello, I&apos;m
               </p>
 
