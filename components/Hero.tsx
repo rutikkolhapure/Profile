@@ -137,7 +137,7 @@ export default function Hero() {
 
 
               {/* EXPERIENCE CARD */}
-              <div className="absolute top-16 -left-8 bg-white rounded-xl shadow-lg shadow-slate-300/50 border border-slate-100 px-3 py-2 flex items-center gap-2 z-20">
+              <div className="absolute top-14 -left-10 bg-white rounded-xl shadow-lg shadow-slate-300/50 border border-slate-100 px-3 py-2 flex items-center gap-2 z-20">
 
                 <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
                   <FiZap
