@@ -91,11 +91,11 @@ export default function Contact() {
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-green-500 rounded-full" />
-                  <span className="text-slate-700">Business Analysis Opportunities</span>
+                  <span className="text-slate-700">Business Analyst Roles</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-green-500 rounded-full" />
-                  <span className="text-slate-700">AI/ML Product Strategy</span>
+                  <span className="text-slate-700">AI/ML Roles</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-yellow-500 rounded-full" />
