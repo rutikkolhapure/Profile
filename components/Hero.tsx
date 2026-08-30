@@ -91,19 +91,47 @@ export default function Hero() {
 
             <div className="flex flex-wrap gap-4">
 
+              {/* Get in Touch */}
               <a
                 href="#contact"
-                className="inline-flex items-center px-6 py-3 bg-primary hover:bg-primary/80 text-white rounded-lg font-medium transition-all duration-300 hover-glow"
+                className="
+                  inline-flex
+                  items-center
+                  px-6
+                  py-3
+                  bg-primary
+                  hover:bg-primary/80
+                  text-white
+                  rounded-lg
+                  font-medium
+                  transition-all
+                  duration-300
+                  hover-glow
+                "
               >
                 Get in Touch
                 <FiArrowRight className="ml-2" />
               </a>
 
 
+              {/* Download CV */}
               <a
                 href="/RutikKolhapureResume.pdf"
                 download
-                className="inline-flex items-center px-6 py-3 border border-primary/50 text-primary hover:bg-primary/10 rounded-lg font-medium transition-all duration-300"
+                className="
+                  inline-flex
+                  items-center
+                  px-6
+                  py-3
+                  border
+                  border-primary/50
+                  text-primary
+                  hover:bg-primary/10
+                  rounded-lg
+                  font-medium
+                  transition-all
+                  duration-300
+                "
               >
                 Download CV
                 <FiDownload className="ml-2" />
@@ -133,7 +161,7 @@ export default function Hero() {
                   viewBox="0 0 24 24"
                 >
 
-                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065-1.138 0-2.063.92-2.063 2.063 0 1.139.925 2.065 2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 0 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065-1.138 0-2.063.92-2.063 2.063 0 1.139.925 2.065 2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
 
                 </svg>
 
@@ -177,12 +205,19 @@ export default function Hero() {
             {/* MOBILE VERSION */}
             {/* ================================================= */}
 
-            <div className="flex lg:hidden flex-col items-center w-full">
+            <div className="
+              flex
+              lg:hidden
+              flex-col
+              items-center
+              w-full
+              pb-16
+            ">
 
 
-              {/* --------------------------------------------- */}
+              {/* ============================================= */}
               {/* PROFILE IMAGE */}
-              {/* --------------------------------------------- */}
+              {/* ============================================= */}
 
               <div className="
                 relative
@@ -190,6 +225,7 @@ export default function Hero() {
                 h-[280px]
                 sm:w-[320px]
                 sm:h-[320px]
+                flex-shrink-0
               ">
 
                 {/* Outer dashed circle */}
@@ -229,9 +265,9 @@ export default function Hero() {
               </div>
 
 
-              {/* --------------------------------------------- */}
+              {/* ============================================= */}
               {/* MOBILE CARDS */}
-              {/* --------------------------------------------- */}
+              {/* ============================================= */}
 
               <div className="
                 mt-6
@@ -243,25 +279,30 @@ export default function Hero() {
               ">
 
 
+                {/* ========================================= */}
                 {/* EXPERIENCE CARD */}
+                {/* ========================================= */}
+
                 <div className="
+                  w-[210px]
                   bg-white
-                  rounded-xl
-                  shadow-lg
-                  shadow-slate-300/50
+                  rounded-lg
+                  shadow-md
+                  shadow-slate-300/40
                   border
                   border-slate-100
-                  px-4
-                  py-3
+                  px-3
+                  py-2
                   flex
                   items-center
                   gap-2
                 ">
 
+                  {/* Icon */}
                   <div className="
-                    w-8
-                    h-8
-                    rounded-lg
+                    w-7
+                    h-7
+                    rounded-md
                     bg-primary/10
                     flex
                     items-center
@@ -271,19 +312,30 @@ export default function Hero() {
 
                     <FiZap
                       className="text-primary"
-                      size={15}
+                      size={13}
                     />
 
                   </div>
 
 
-                  <div>
+                  {/* Text */}
+                  <div className="text-left">
 
-                    <div className="font-bold text-slate-900 text-xs leading-tight">
+                    <div className="
+                      font-bold
+                      text-slate-900
+                      text-xs
+                      leading-tight
+                    ">
                       3+ Years
                     </div>
 
-                    <div className="text-slate-500 text-[10px] leading-tight">
+                    <div className="
+                      text-slate-500
+                      text-[9px]
+                      leading-tight
+                      mt-0.5
+                    ">
                       Product &amp; BA Experience
                     </div>
 
@@ -292,25 +344,30 @@ export default function Hero() {
                 </div>
 
 
+                {/* ========================================= */}
                 {/* PRODUCTS CARD */}
+                {/* ========================================= */}
+
                 <div className="
+                  w-[210px]
                   bg-white
-                  rounded-xl
-                  shadow-lg
-                  shadow-slate-300/50
+                  rounded-lg
+                  shadow-md
+                  shadow-slate-300/40
                   border
                   border-slate-100
-                  px-4
-                  py-3
+                  px-3
+                  py-2
                   flex
                   items-center
                   gap-2
                 ">
 
+                  {/* Icon */}
                   <div className="
-                    w-8
-                    h-8
-                    rounded-lg
+                    w-7
+                    h-7
+                    rounded-md
                     bg-secondary/10
                     flex
                     items-center
@@ -320,19 +377,30 @@ export default function Hero() {
 
                     <FiTrendingUp
                       className="text-secondary"
-                      size={15}
+                      size={13}
                     />
 
                   </div>
 
 
-                  <div>
+                  {/* Text */}
+                  <div className="text-left">
 
-                    <div className="font-bold text-slate-900 text-xs leading-tight">
+                    <div className="
+                      font-bold
+                      text-slate-900
+                      text-xs
+                      leading-tight
+                    ">
                       8+ Products
                     </div>
 
-                    <div className="text-slate-500 text-[10px] leading-tight">
+                    <div className="
+                      text-slate-500
+                      text-[9px]
+                      leading-tight
+                      mt-0.5
+                    ">
                       Delivered
                     </div>
 
@@ -358,9 +426,9 @@ export default function Hero() {
             ">
 
 
-              {/* --------------------------------------------- */}
+              {/* ============================================= */}
               {/* OUTER DASHED CIRCLE */}
-              {/* --------------------------------------------- */}
+              {/* ============================================= */}
 
               <div className="
                 absolute
@@ -372,9 +440,9 @@ export default function Hero() {
               " />
 
 
-              {/* --------------------------------------------- */}
+              {/* ============================================= */}
               {/* PROFILE IMAGE */}
-              {/* --------------------------------------------- */}
+              {/* ============================================= */}
 
               <div className="
                 absolute
@@ -399,9 +467,9 @@ export default function Hero() {
               </div>
 
 
-              {/* --------------------------------------------- */}
+              {/* ============================================= */}
               {/* DESKTOP EXPERIENCE CARD */}
-              {/* --------------------------------------------- */}
+              {/* ============================================= */}
 
               <div className="
                 absolute
@@ -442,11 +510,20 @@ export default function Hero() {
 
                 <div>
 
-                  <div className="font-bold text-slate-900 text-xs leading-tight">
+                  <div className="
+                    font-bold
+                    text-slate-900
+                    text-xs
+                    leading-tight
+                  ">
                     3+ Years
                   </div>
 
-                  <div className="text-slate-500 text-[10px] leading-tight">
+                  <div className="
+                    text-slate-500
+                    text-[10px]
+                    leading-tight
+                  ">
                     Product &amp; BA Experience
                   </div>
 
@@ -455,9 +532,9 @@ export default function Hero() {
               </div>
 
 
-              {/* --------------------------------------------- */}
+              {/* ============================================= */}
               {/* DESKTOP PRODUCTS CARD */}
-              {/* --------------------------------------------- */}
+              {/* ============================================= */}
 
               <div className="
                 absolute
@@ -498,11 +575,20 @@ export default function Hero() {
 
                 <div>
 
-                  <div className="font-bold text-slate-900 text-xs leading-tight">
+                  <div className="
+                    font-bold
+                    text-slate-900
+                    text-xs
+                    leading-tight
+                  ">
                     8+ Products
                   </div>
 
-                  <div className="text-slate-500 text-[10px] leading-tight">
+                  <div className="
+                    text-slate-500
+                    text-[10px]
+                    leading-tight
+                  ">
                     Delivered
                   </div>
 
@@ -524,6 +610,8 @@ export default function Hero() {
       {/* ===================================================== */}
 
       <div className="
+        hidden
+        lg:block
         absolute
         bottom-10
         left-1/2
