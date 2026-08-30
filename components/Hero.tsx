@@ -91,25 +91,21 @@ export default function Hero() {
 
             <div className="flex flex-wrap gap-4">
 
-              {/* Get in Touch */}
               <a
                 href="#contact"
                 className="inline-flex items-center px-6 py-3 bg-primary hover:bg-primary/80 text-white rounded-lg font-medium transition-all duration-300 hover-glow"
               >
                 Get in Touch
-
                 <FiArrowRight className="ml-2" />
               </a>
 
 
-              {/* Download CV */}
               <a
                 href="/RutikKolhapureResume.pdf"
                 download
                 className="inline-flex items-center px-6 py-3 border border-primary/50 text-primary hover:bg-primary/10 rounded-lg font-medium transition-all duration-300"
               >
                 Download CV
-
                 <FiDownload className="ml-2" />
               </a>
 
@@ -176,90 +172,22 @@ export default function Hero() {
 
           <div className="w-full flex justify-center">
 
+
             {/* ================================================= */}
-            {/* MOBILE PROFILE */}
+            {/* MOBILE VERSION */}
             {/* ================================================= */}
 
-            <div className="
-              relative
-              w-[320px]
-              h-[480px]
-              sm:w-[360px]
-              sm:h-[520px]
-              lg:hidden
-            ">
+            <div className="flex lg:hidden flex-col items-center w-full">
 
 
               {/* --------------------------------------------- */}
-              {/* EXPERIENCE CARD */}
+              {/* PROFILE IMAGE */}
               {/* --------------------------------------------- */}
 
               <div className="
-                absolute
-                top-0
-                left-1/2
-                -translate-x-1/2
-                bg-white
-                rounded-xl
-                shadow-lg
-                shadow-slate-300/50
-                border
-                border-slate-100
-                px-3
-                py-2
-                flex
-                items-center
-                gap-2
-                z-20
-                whitespace-nowrap
-              ">
-
-                <div className="
-                  w-8
-                  h-8
-                  rounded-lg
-                  bg-primary/10
-                  flex
-                  items-center
-                  justify-center
-                  flex-shrink-0
-                ">
-
-                  <FiZap
-                    className="text-primary"
-                    size={15}
-                  />
-
-                </div>
-
-
-                <div>
-
-                  <div className="font-bold text-slate-900 text-xs leading-tight">
-                    3+ Years
-                  </div>
-
-                  <div className="text-slate-500 text-[10px] leading-tight">
-                    Product &amp; BA Experience
-                  </div>
-
-                </div>
-
-              </div>
-
-
-              {/* --------------------------------------------- */}
-              {/* MOBILE PROFILE IMAGE */}
-              {/* --------------------------------------------- */}
-
-              <div className="
-                absolute
-                top-[90px]
-                left-1/2
-                -translate-x-1/2
+                relative
                 w-[280px]
                 h-[280px]
-                sm:top-[100px]
                 sm:w-[320px]
                 sm:h-[320px]
               ">
@@ -275,7 +203,7 @@ export default function Hero() {
                 " />
 
 
-                {/* Image */}
+                {/* Inner profile circle */}
                 <div className="
                   absolute
                   inset-4
@@ -302,55 +230,112 @@ export default function Hero() {
 
 
               {/* --------------------------------------------- */}
-              {/* PRODUCTS CARD */}
+              {/* MOBILE CARDS */}
               {/* --------------------------------------------- */}
 
               <div className="
-                absolute
-                top-[390px]
-                right-0
-                bg-white
-                rounded-xl
-                shadow-lg
-                shadow-slate-300/50
-                border
-                border-slate-100
-                px-3
-                py-2
+                mt-6
                 flex
+                flex-col
                 items-center
-                gap-2
-                z-20
-                whitespace-nowrap
+                gap-3
+                w-full
               ">
 
+
+                {/* EXPERIENCE CARD */}
                 <div className="
-                  w-8
-                  h-8
-                  rounded-lg
-                  bg-secondary/10
+                  bg-white
+                  rounded-xl
+                  shadow-lg
+                  shadow-slate-300/50
+                  border
+                  border-slate-100
+                  px-4
+                  py-3
                   flex
                   items-center
-                  justify-center
-                  flex-shrink-0
+                  gap-2
                 ">
 
-                  <FiTrendingUp
-                    className="text-secondary"
-                    size={15}
-                  />
+                  <div className="
+                    w-8
+                    h-8
+                    rounded-lg
+                    bg-primary/10
+                    flex
+                    items-center
+                    justify-center
+                    flex-shrink-0
+                  ">
+
+                    <FiZap
+                      className="text-primary"
+                      size={15}
+                    />
+
+                  </div>
+
+
+                  <div>
+
+                    <div className="font-bold text-slate-900 text-xs leading-tight">
+                      3+ Years
+                    </div>
+
+                    <div className="text-slate-500 text-[10px] leading-tight">
+                      Product &amp; BA Experience
+                    </div>
+
+                  </div>
 
                 </div>
 
 
-                <div>
+                {/* PRODUCTS CARD */}
+                <div className="
+                  bg-white
+                  rounded-xl
+                  shadow-lg
+                  shadow-slate-300/50
+                  border
+                  border-slate-100
+                  px-4
+                  py-3
+                  flex
+                  items-center
+                  gap-2
+                ">
 
-                  <div className="font-bold text-slate-900 text-xs leading-tight">
-                    8+ Products
+                  <div className="
+                    w-8
+                    h-8
+                    rounded-lg
+                    bg-secondary/10
+                    flex
+                    items-center
+                    justify-center
+                    flex-shrink-0
+                  ">
+
+                    <FiTrendingUp
+                      className="text-secondary"
+                      size={15}
+                    />
+
                   </div>
 
-                  <div className="text-slate-500 text-[10px] leading-tight">
-                    Delivered
+
+                  <div>
+
+                    <div className="font-bold text-slate-900 text-xs leading-tight">
+                      8+ Products
+                    </div>
+
+                    <div className="text-slate-500 text-[10px] leading-tight">
+                      Delivered
+                    </div>
+
                   </div>
 
                 </div>
@@ -361,7 +346,7 @@ export default function Hero() {
 
 
             {/* ================================================= */}
-            {/* DESKTOP PROFILE */}
+            {/* DESKTOP VERSION */}
             {/* ================================================= */}
 
             <div className="
@@ -373,7 +358,10 @@ export default function Hero() {
             ">
 
 
-              {/* Outer dashed circle */}
+              {/* --------------------------------------------- */}
+              {/* OUTER DASHED CIRCLE */}
+              {/* --------------------------------------------- */}
+
               <div className="
                 absolute
                 inset-8
@@ -384,7 +372,10 @@ export default function Hero() {
               " />
 
 
-              {/* Inner profile circle */}
+              {/* --------------------------------------------- */}
+              {/* PROFILE IMAGE */}
+              {/* --------------------------------------------- */}
+
               <div className="
                 absolute
                 inset-14
@@ -408,7 +399,10 @@ export default function Hero() {
               </div>
 
 
-              {/* Desktop Experience Card */}
+              {/* --------------------------------------------- */}
+              {/* DESKTOP EXPERIENCE CARD */}
+              {/* --------------------------------------------- */}
+
               <div className="
                 absolute
                 top-14
@@ -461,7 +455,10 @@ export default function Hero() {
               </div>
 
 
-              {/* Desktop Products Card */}
+              {/* --------------------------------------------- */}
+              {/* DESKTOP PRODUCTS CARD */}
+              {/* --------------------------------------------- */}
+
               <div className="
                 absolute
                 bottom-16
