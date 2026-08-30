@@ -117,7 +117,7 @@ export default function Hero() {
 
 
           {/* RIGHT SIDE - PROFILE */}
-          <div className="hidden lg:flex justify-center">
+          <div className="flex justify-center">
 
             <div className="relative w-[400px] h-[400px] overflow-visible">
 
