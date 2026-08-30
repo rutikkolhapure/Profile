@@ -11,7 +11,7 @@ export default function Footer() {
             © {new Date().getFullYear()} Rutik Kolhapure. All rights reserved.
           </div>
           <div className="flex items-center gap-1 text-slate-500 text-sm">
-            Built with <FiHeart className="text-red-500 mx-1" /> using Next.js & Tailwind CSS
+            Built with <FiHeart className="text-red-500 mx-1" />.
           </div>
         </div>
       </div>
