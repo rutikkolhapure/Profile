@@ -134,65 +134,89 @@ export default function Hero() {
           </div>
 
 
-          {/* RIGHT SIDE - PROFILE */}
+{/* ===================================================== */}
+{/* RIGHT SIDE - PROFILE */}
+{/* ===================================================== */}
 
 <div className="flex justify-center w-full">
 
+  {/* MOBILE + DESKTOP PROFILE WRAPPER */}
   <div
     className="
       relative
-      w-[300px] h-[300px]
-      sm:w-[340px] sm:h-[340px]
-      lg:w-[400px] lg:h-[400px]
+      w-[320px]
+      h-[430px]
+      sm:w-[360px]
+      sm:h-[460px]
+      lg:w-[400px]
+      lg:h-[400px]
     "
   >
 
     {/* ================================================= */}
-    {/* OUTER DASHED CIRCLE */}
+    {/* PROFILE CIRCLE */}
     {/* ================================================= */}
 
     <div
       className="
         absolute
-        inset-4
-        sm:inset-6
-        lg:inset-8
-        rounded-full
-        border-2
-        border-dashed
-        border-primary/30
-      "
-    />
-
-
-    {/* ================================================= */}
-    {/* INNER PROFILE CIRCLE */}
-    {/* ================================================= */}
-
-    <div
-      className="
-        absolute
-        inset-8
-        sm:inset-10
-        lg:inset-14
-        rounded-full
-        overflow-hidden
-        bg-gradient-to-br
-        from-slate-100
-        to-blue-100
-        border
-        border-slate-200
-        shadow-xl
-        shadow-primary/10
-        z-0
+        top-[55px]
+        left-1/2
+        -translate-x-1/2
+        w-[280px]
+        h-[280px]
+        sm:top-[60px]
+        sm:w-[320px]
+        sm:h-[320px]
+        lg:top-0
+        lg:left-0
+        lg:translate-x-0
+        lg:w-[400px]
+        lg:h-[400px]
       "
     >
 
-      <img
-        src="/profile.png"
-        alt="Rutik Kolhapure"
-        className="w-full h-full object-cover object-center"
+      {/* Outer dashed circle */}
+      <div
+        className="
+          absolute
+          inset-4
+          sm:inset-6
+          lg:inset-8
+          rounded-full
+          border-2
+          border-dashed
+          border-primary/30
+        "
       />
+
+      {/* Inner profile circle */}
+      <div
+        className="
+          absolute
+          inset-8
+          sm:inset-10
+          lg:inset-14
+          rounded-full
+          overflow-hidden
+          bg-gradient-to-br
+          from-slate-100
+          to-blue-100
+          border
+          border-slate-200
+          shadow-xl
+          shadow-primary/10
+          z-0
+        "
+      >
+
+        <img
+          src="/profile.png"
+          alt="Rutik Kolhapure"
+          className="w-full h-full object-cover object-center"
+        />
+
+      </div>
 
     </div>
 
@@ -204,12 +228,13 @@ export default function Hero() {
     <div
       className="
         absolute
-        top-1
-        -left-7
-        sm:top-5
-        sm:left-0
+        top-0
+        left-1/2
+        -translate-x-1/2
+        sm:top-2
         lg:top-14
         lg:-left-10
+        lg:translate-x-0
         bg-white
         rounded-xl
         shadow-lg
@@ -228,7 +253,8 @@ export default function Hero() {
 
       <div
         className="
-          w-8 h-8
+          w-8
+          h-8
           rounded-lg
           bg-primary/10
           flex
@@ -237,10 +263,12 @@ export default function Hero() {
           flex-shrink-0
         "
       >
+
         <FiZap
           className="text-primary"
           size={15}
         />
+
       </div>
 
       <div>
@@ -265,9 +293,9 @@ export default function Hero() {
     <div
       className="
         absolute
-        bottom-1
-        -right-7
-        sm:bottom-5
+        bottom-0
+        right-0
+        sm:bottom-2
         sm:right-0
         lg:bottom-16
         lg:-right-8
@@ -289,7 +317,8 @@ export default function Hero() {
 
       <div
         className="
-          w-8 h-8
+          w-8
+          h-8
           rounded-lg
           bg-secondary/10
           flex
@@ -298,10 +327,12 @@ export default function Hero() {
           flex-shrink-0
         "
       >
+
         <FiTrendingUp
           className="text-secondary"
           size={15}
         />
+
       </div>
 
       <div>
