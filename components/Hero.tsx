@@ -134,9 +134,7 @@ export default function Hero() {
           </div>
 
 
-          {/* ===================================================== */}
-{/* RIGHT SIDE - PROFILE */}
-{/* ===================================================== */}
+          {/* RIGHT SIDE - PROFILE */}
 
 <div className="flex justify-center w-full">
 
@@ -323,6 +321,7 @@ export default function Hero() {
   </div>
 
 </div>
+
 
       {/* ===================================================== */}
       {/* SCROLL INDICATOR */}
