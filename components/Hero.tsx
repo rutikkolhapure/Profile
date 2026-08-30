@@ -135,181 +135,194 @@ export default function Hero() {
 
 
           {/* ===================================================== */}
-          {/* RIGHT SIDE - PROFILE */}
-          {/* ===================================================== */}
+{/* RIGHT SIDE - PROFILE */}
+{/* ===================================================== */}
 
-          <div className="flex justify-center w-full">
+<div className="flex justify-center w-full">
 
-            <div
-              className="
-                relative
-                w-[300px] h-[300px]
-                sm:w-[340px] sm:h-[340px]
-                lg:w-[400px] lg:h-[400px]
-              "
-            >
+  <div
+    className="
+      relative
+      w-[300px] h-[300px]
+      sm:w-[340px] sm:h-[340px]
+      lg:w-[400px] lg:h-[400px]
+    "
+  >
 
-              {/* ================================================= */}
-              {/* OUTER DASHED CIRCLE */}
-              {/* ================================================= */}
+    {/* ================================================= */}
+    {/* OUTER DASHED CIRCLE */}
+    {/* ================================================= */}
 
-              <div
-                className="
-                  absolute
-                  inset-4
-                  sm:inset-6
-                  lg:inset-8
-                  rounded-full
-                  border-2
-                  border-dashed
-                  border-primary/30
-                "
-              />
-
-
-              {/* ================================================= */}
-              {/* INNER PROFILE CIRCLE */}
-              {/* ================================================= */}
-
-              <div
-                className="
-                  absolute
-                  inset-8
-                  sm:inset-10
-                  lg:inset-14
-                  rounded-full
-                  overflow-hidden
-                  bg-gradient-to-br
-                  from-slate-100
-                  to-blue-100
-                  border
-                  border-slate-200
-                  shadow-xl
-                  shadow-primary/10
-                  z-0
-                "
-              >
-
-                <img
-                  src="/profile.png"
-                  alt="Rutik Kolhapure"
-                  className="w-full h-full object-cover object-center"
-                />
-
-              </div>
+    <div
+      className="
+        absolute
+        inset-4
+        sm:inset-6
+        lg:inset-8
+        rounded-full
+        border-2
+        border-dashed
+        border-primary/30
+      "
+    />
 
 
-              {/* ================================================= */}
-              {/* EXPERIENCE CARD */}
-              {/* ================================================= */}
+    {/* ================================================= */}
+    {/* INNER PROFILE CIRCLE */}
+    {/* ================================================= */}
 
-              <div
-                className="
-                  absolute
-                  top-8
-                  left-0
-                  sm:top-10
-                  sm:left-0
-                  lg:top-14
-                  lg:-left-10
-                  bg-white
-                  rounded-xl
-                  shadow-lg
-                  shadow-slate-300/50
-                  border
-                  border-slate-100
-                  px-3
-                  py-2
-                  flex
-                  items-center
-                  gap-2
-                  z-20
-                "
-              >
+    <div
+      className="
+        absolute
+        inset-8
+        sm:inset-10
+        lg:inset-14
+        rounded-full
+        overflow-hidden
+        bg-gradient-to-br
+        from-slate-100
+        to-blue-100
+        border
+        border-slate-200
+        shadow-xl
+        shadow-primary/10
+        z-0
+      "
+    >
 
-                <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+      <img
+        src="/profile.png"
+        alt="Rutik Kolhapure"
+        className="w-full h-full object-cover object-center"
+      />
 
-                  <FiZap
-                    className="text-primary"
-                    size={15}
-                  />
-
-                </div>
-
-                <div>
-
-                  <div className="font-bold text-slate-900 text-xs leading-tight">
-                    3+ Years
-                  </div>
-
-                  <div className="text-slate-500 text-[10px] leading-tight whitespace-nowrap">
-                    Product &amp; BA Experience
-                  </div>
-
-                </div>
-
-              </div>
+    </div>
 
 
-              {/* ================================================= */}
-              {/* PRODUCTS CARD */}
-              {/* ================================================= */}
+    {/* ================================================= */}
+    {/* EXPERIENCE CARD */}
+    {/* ================================================= */}
 
-              <div
-                className="
-                  absolute
-                  bottom-8
-                  right-0
-                  sm:bottom-10
-                  sm:right-0
-                  lg:bottom-16
-                  lg:-right-8
-                  bg-white
-                  rounded-xl
-                  shadow-lg
-                  shadow-slate-300/50
-                  border
-                  border-slate-100
-                  px-3
-                  py-2
-                  flex
-                  items-center
-                  gap-2
-                  z-20
-                "
-              >
+    <div
+      className="
+        absolute
+        top-1
+        -left-7
+        sm:top-5
+        sm:left-0
+        lg:top-14
+        lg:-left-10
+        bg-white
+        rounded-xl
+        shadow-lg
+        shadow-slate-300/50
+        border
+        border-slate-100
+        px-3
+        py-2
+        flex
+        items-center
+        gap-2
+        z-20
+        whitespace-nowrap
+      "
+    >
 
-                <div className="w-8 h-8 rounded-lg bg-secondary/10 flex items-center justify-center flex-shrink-0">
+      <div
+        className="
+          w-8 h-8
+          rounded-lg
+          bg-primary/10
+          flex
+          items-center
+          justify-center
+          flex-shrink-0
+        "
+      >
+        <FiZap
+          className="text-primary"
+          size={15}
+        />
+      </div>
 
-                  <FiTrendingUp
-                    className="text-secondary"
-                    size={15}
-                  />
+      <div>
 
-                </div>
+        <div className="font-bold text-slate-900 text-xs leading-tight">
+          3+ Years
+        </div>
 
-                <div>
-
-                  <div className="font-bold text-slate-900 text-xs leading-tight">
-                    8+ Products
-                  </div>
-
-                  <div className="text-slate-500 text-[10px] leading-tight whitespace-nowrap">
-                    Delivered
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
-
-          </div>
-
+        <div className="text-slate-500 text-[10px] leading-tight">
+          Product &amp; BA Experience
         </div>
 
       </div>
 
+    </div>
+
+
+    {/* ================================================= */}
+    {/* PRODUCTS CARD */}
+    {/* ================================================= */}
+
+    <div
+      className="
+        absolute
+        bottom-1
+        -right-7
+        sm:bottom-5
+        sm:right-0
+        lg:bottom-16
+        lg:-right-8
+        bg-white
+        rounded-xl
+        shadow-lg
+        shadow-slate-300/50
+        border
+        border-slate-100
+        px-3
+        py-2
+        flex
+        items-center
+        gap-2
+        z-20
+        whitespace-nowrap
+      "
+    >
+
+      <div
+        className="
+          w-8 h-8
+          rounded-lg
+          bg-secondary/10
+          flex
+          items-center
+          justify-center
+          flex-shrink-0
+        "
+      >
+        <FiTrendingUp
+          className="text-secondary"
+          size={15}
+        />
+      </div>
+
+      <div>
+
+        <div className="font-bold text-slate-900 text-xs leading-tight">
+          8+ Products
+        </div>
+
+        <div className="text-slate-500 text-[10px] leading-tight">
+          Delivered
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
 
       {/* ===================================================== */}
       {/* SCROLL INDICATOR */}
