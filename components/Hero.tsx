@@ -12,9 +12,13 @@ export default function Hero() {
       <div className="absolute bottom-20 right-10 w-96 h-96 bg-secondary/20 rounded-full blur-3xl" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+
         <div className="grid lg:grid-cols-2 gap-12 items-center">
 
+          {/* ===================================================== */}
           {/* LEFT SIDE */}
+          {/* ===================================================== */}
+
           <div className="space-y-8">
 
             <div className="space-y-4">
@@ -30,6 +34,7 @@ export default function Hero() {
               </h1>
 
               <div className="h-16">
+
                 <TypeAnimation
                   sequence={[
                     'Product Manager',
@@ -46,9 +51,11 @@ export default function Hero() {
                   className="text-2xl md:text-3xl text-slate-600"
                   repeat={Infinity}
                 />
+
               </div>
 
             </div>
+
 
             <p className="text-slate-600 text-lg leading-relaxed max-w-xl">
               Product-minded Business Consultant with 3+ years of experience
@@ -56,7 +63,11 @@ export default function Hero() {
               strategy across SaaS, BFSI, and enterprise technology.
             </p>
 
-            {/* Buttons */}
+
+            {/* ===================================================== */}
+            {/* BUTTONS */}
+            {/* ===================================================== */}
+
             <div className="flex flex-wrap gap-4">
 
               <a
@@ -78,9 +89,14 @@ export default function Hero() {
 
             </div>
 
-            {/* Social Links */}
+
+            {/* ===================================================== */}
+            {/* SOCIAL LINKS */}
+            {/* ===================================================== */}
+
             <div className="flex gap-6 pt-4">
 
+              {/* LinkedIn */}
               <a
                 href="https://linkedin.com/in/rutikkolhapure"
                 target="_blank"
@@ -96,6 +112,8 @@ export default function Hero() {
                 </svg>
               </a>
 
+
+              {/* GitHub */}
               <a
                 href="https://github.com/rutikkolhapure"
                 target="_blank"
@@ -116,16 +134,61 @@ export default function Hero() {
           </div>
 
 
+          {/* ===================================================== */}
           {/* RIGHT SIDE - PROFILE */}
-          <div className="flex justify-center">
+          {/* ===================================================== */}
 
-            <div className="relative w-[400px] h-[400px] overflow-visible">
+          <div className="flex justify-center w-full">
 
-              {/* Outer dashed circle */}
-              <div className="absolute inset-8 rounded-full border-2 border-dashed border-primary/30" />
+            <div
+              className="
+                relative
+                w-[300px] h-[300px]
+                sm:w-[340px] sm:h-[340px]
+                lg:w-[400px] lg:h-[400px]
+              "
+            >
 
-              {/* Inner profile circle */}
-              <div className="absolute inset-14 rounded-full overflow-hidden bg-gradient-to-br from-slate-100 to-blue-100 border border-slate-200 shadow-xl shadow-primary/10 z-0">
+              {/* ================================================= */}
+              {/* OUTER DASHED CIRCLE */}
+              {/* ================================================= */}
+
+              <div
+                className="
+                  absolute
+                  inset-4
+                  sm:inset-6
+                  lg:inset-8
+                  rounded-full
+                  border-2
+                  border-dashed
+                  border-primary/30
+                "
+              />
+
+
+              {/* ================================================= */}
+              {/* INNER PROFILE CIRCLE */}
+              {/* ================================================= */}
+
+              <div
+                className="
+                  absolute
+                  inset-8
+                  sm:inset-10
+                  lg:inset-14
+                  rounded-full
+                  overflow-hidden
+                  bg-gradient-to-br
+                  from-slate-100
+                  to-blue-100
+                  border
+                  border-slate-200
+                  shadow-xl
+                  shadow-primary/10
+                  z-0
+                "
+              >
 
                 <img
                   src="/profile.png"
@@ -136,14 +199,41 @@ export default function Hero() {
               </div>
 
 
+              {/* ================================================= */}
               {/* EXPERIENCE CARD */}
-              <div className="absolute top-14 -left-10 bg-white rounded-xl shadow-lg shadow-slate-300/50 border border-slate-100 px-3 py-2 flex items-center gap-2 z-20">
+              {/* ================================================= */}
+
+              <div
+                className="
+                  absolute
+                  top-8
+                  left-0
+                  sm:top-10
+                  sm:left-0
+                  lg:top-14
+                  lg:-left-10
+                  bg-white
+                  rounded-xl
+                  shadow-lg
+                  shadow-slate-300/50
+                  border
+                  border-slate-100
+                  px-3
+                  py-2
+                  flex
+                  items-center
+                  gap-2
+                  z-20
+                "
+              >
 
                 <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+
                   <FiZap
                     className="text-primary"
                     size={15}
                   />
+
                 </div>
 
                 <div>
@@ -152,7 +242,7 @@ export default function Hero() {
                     3+ Years
                   </div>
 
-                  <div className="text-slate-500 text-[10px] leading-tight">
+                  <div className="text-slate-500 text-[10px] leading-tight whitespace-nowrap">
                     Product &amp; BA Experience
                   </div>
 
@@ -161,14 +251,41 @@ export default function Hero() {
               </div>
 
 
+              {/* ================================================= */}
               {/* PRODUCTS CARD */}
-              <div className="absolute bottom-16 -right-8 bg-white rounded-xl shadow-lg shadow-slate-300/50 border border-slate-100 px-3 py-2 flex items-center gap-2 z-20">
+              {/* ================================================= */}
+
+              <div
+                className="
+                  absolute
+                  bottom-8
+                  right-0
+                  sm:bottom-10
+                  sm:right-0
+                  lg:bottom-16
+                  lg:-right-8
+                  bg-white
+                  rounded-xl
+                  shadow-lg
+                  shadow-slate-300/50
+                  border
+                  border-slate-100
+                  px-3
+                  py-2
+                  flex
+                  items-center
+                  gap-2
+                  z-20
+                "
+              >
 
                 <div className="w-8 h-8 rounded-lg bg-secondary/10 flex items-center justify-center flex-shrink-0">
+
                   <FiTrendingUp
                     className="text-secondary"
                     size={15}
                   />
+
                 </div>
 
                 <div>
@@ -177,7 +294,7 @@ export default function Hero() {
                     8+ Products
                   </div>
 
-                  <div className="text-slate-500 text-[10px] leading-tight">
+                  <div className="text-slate-500 text-[10px] leading-tight whitespace-nowrap">
                     Delivered
                   </div>
 
@@ -190,10 +307,14 @@ export default function Hero() {
           </div>
 
         </div>
+
       </div>
 
 
-      {/* Scroll indicator */}
+      {/* ===================================================== */}
+      {/* SCROLL INDICATOR */}
+      {/* ===================================================== */}
+
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
 
         <a
@@ -207,12 +328,14 @@ export default function Hero() {
             stroke="currentColor"
             viewBox="0 0 24 24"
           >
+
             <path
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth={2}
               d="M19 14l-7 7m0 0l-7-7m7 7V3"
             />
+
           </svg>
 
         </a>
